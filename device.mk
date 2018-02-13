@@ -83,8 +83,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:system/etc/mixer_paths_tasha.xml \
     $(LOCAL_PATH)/audio/audio_policy.conf:system/etc/audio_policy.conf
 
-ADDITIONAL_DEFAULT_PROPERTIES += \
-    ro.musicfx.disabled=true
+#ADDITIONAL_DEFAULT_PROPERTIES += \
+#    ro.musicfx.disabled=true
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
