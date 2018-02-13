@@ -36,7 +36,7 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,device/leeco/x2/rootdir/root,root)
 
 # QPerformance
-PRODUCT_BOOT_JARS += QPerformance
+#PRODUCT_BOOT_JARS += QPerformance
 
 # Permissions
 PRODUCT_COPY_FILES += \
