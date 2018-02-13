@@ -17,5 +17,10 @@
     "repository" : "mukulsoni/proprietary_vendor_leeco",
     "target_path": "vendor/leeco",
     "branch"     : "RR-8.1"
+},
+ {
+   "repository" : "LineageOS/android_hardware_cyanogen",
+   "target_path": "hardware/cyanogen",
+   "branch"     : "lineage-15.0"
 }
 ]
