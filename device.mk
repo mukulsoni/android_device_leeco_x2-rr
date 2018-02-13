@@ -154,7 +154,7 @@ PRODUCT_PACKAGES += \
 
 # Doze mode
 PRODUCT_PACKAGES += \
-    Doze
+    OneplusDoze
 
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
