@@ -167,11 +167,10 @@ HEALTHD_ENABLE_TRICOLOR_LED := true
 TARGET_PROVIDES_POWERHAL := true
 BOARD_HAL_STATIC_LIBRARIES := libdumpstate.msm8996
 
-# CM Hardware
+# Lineage hardware
 BOARD_HARDWARE_CLASS += \
-    hardware/cyanogen/cmhw \
-    $(DEVICE_PATH)/cmhw
-BOARD_USES_CYANOGEN_HARDWARE := true
+    hardware/lineage/lineagehw \
+    $(DEVICE_PATH)/lineagehw
 
 # CNE and DPM
 #TARGET_LDPRELOAD := libNimsWrap.so
