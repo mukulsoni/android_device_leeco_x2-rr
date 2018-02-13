@@ -1,0 +1,21 @@
+[
+{
+    "repository" : "LineageOS/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch"     : "staging/lineage-15.1"
+  },
+  {
+    "repository" : "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch"     : "staging/lineage-15.1"
+},
+{
+    "repository" : "kernel_leeco_msm8996",
+    "target_path": "kernel/leeco/msm8996"
+  },
+  {
+    "repository" : "mukulsoni/proprietary_vendor_leeco",
+    "target_path": "vendor/leeco",
+    "branch"     : "RR-8.1"
+}
+]
